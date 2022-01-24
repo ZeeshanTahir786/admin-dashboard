@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,IAAI,EAAE,CAAC;EACP,kBAAkB,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAE,KAAI,CAAC,mBAAmB;EAC1D,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAE,KAAI,CAAC,mBAAmB;EAClD,OAAO,EAAE,IAAI;CACd",
+    "sources": [
+        "WidgetLarge.scss"
+    ],
+    "names": [],
+    "file": "WidgetLarge.css"
+}
