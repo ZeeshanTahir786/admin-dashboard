@@ -1,0 +1,68 @@
+.featured {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.featured .featuredItem {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 1em;
+  padding: 1.5em;
+  border-radius: 0.5em;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.featured .featuredItem .featuredTitle {
+  font-size: 20px;
+}
+
+.featured .featuredItem .featuredMoneyContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+.featured .featuredItem .featuredMoneyContainer .featuredMoney {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.featured .featuredItem .featuredMoneyContainer .featuredMoneyRate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1.2em;
+}
+
+.featured .featuredItem .featuredMoneyContainer .featuredMoneyRate .featuredIcon {
+  color: green;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.featured .featuredItem .featuredMoneyContainer .featuredMoneyRate .featuredIcon.negative {
+  color: red;
+}
+
+.featured .featuredItem .featuredSub {
+  font-size: 15px;
+  color: grey;
+}
+/*# sourceMappingURL=FeaturedInfo.css.map */
